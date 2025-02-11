@@ -1,0 +1,30 @@
+{
+  "name": "rest-api-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "axios": "^0.21.4",
+    "bcrypt": "^5.0.1",
+    "btoa": "^1.2.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.15",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mssql": "^7.3.5",
+    "node-mailjet": "^3.3.7",
+    "nodemon": "^2.0.12",
+    "redis": "^4.3.1"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
