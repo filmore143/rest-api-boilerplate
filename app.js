@@ -38,8 +38,8 @@ const devDbConfig = require("./config/devDb.js");
   });
 
   const port = process.env.DEV
-    ? process.env.HTTP_PORT_DEV
-    : process.env.HTTP_PORT;
+    ? process.env.PORT_DEV
+    : process.env.PORT;
 
   console.log(
     `App is running in ${process.env.DEV ? "DEVELOPMENT" : "PRODUCTION"} mode.`
